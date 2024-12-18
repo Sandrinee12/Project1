@@ -1,0 +1,173 @@
+/* General Style */
+body{
+    font-family:arial,sans-serif;
+    margin:0;
+    padding:0;
+    background-color: #d5cb40;
+    background-size: cover;
+    background-repeat: no_repeat;
+    
+
+}
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+
+
+}
+.hero-container{
+    position: relative;
+    background-image: url('kenya-safari.jpg.png');
+    background-size: cover;
+    height: 500px;
+    justify-content: center;
+}
+#search {
+    padding: 8px;
+    margin-right:10px;
+    border: none;
+    border-radius: 10px;
+}
+.search-btn {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color:white;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.search-btn:hover {
+    background-color: #45a049;
+}
+#content p{
+    margin: 20px;
+}
+/*Nvigation*/
+header{
+    background-color :#333;
+    padding:10px 0;
+
+}
+nav ul{
+    list-style-type:none;
+    text-align: center;
+
+}
+
+nav ul li{ 
+
+    display:inline;
+    margin:0 20px;
+    gap: 20px;
+    justify-content: center;
+}
+nav ul li a{
+    color: white;
+    text-decoration:none;
+    font-size: 18px;
+
+}
+/*Hero section*/
+.hero{
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+}
+.hero h1{
+    font-size:3em;
+}
+.cta-btn{
+    background-color: #363534;
+    color:white;
+    padding: 15px 30px;
+    text-decoration:none;
+    font-size: 18px;
+    border-radius:5px;
+}
+
+.cta-btn:hover{
+    background-color:#e07b00;
+}
+    #destinations{
+        padding:50px 20px;
+        background-color: white;
+    }
+
+    .destinations-list{
+        display:flex;
+        justify-content:space-around;
+        flex-wrap: wrap;
+
+    }
+    .destination{
+        width:100%;
+        border-radius: 8px;
+    }
+    .destination h3{
+        margin-top:10px;
+        font-size:1.5em;
+    }
+    .destination a{
+        color:#007bff;
+        text-decoration:none;
+    }
+    .destination a:hover{
+        text-decoration:underline;
+    
+    }
+
+    #culture{
+     padding: 50px 20px;
+     background-color: #f9f9f9;
+
+    }
+    #culture h2{
+        font-size: 2.5em;
+        text-align:center;
+        text-color: grey;
+    }
+
+    #sustainable{
+        padding:50px 20px;
+background-color: #d5cb40
+    }
+    #sustainable h2{
+        font-size: 2.5em;
+        text-align:center;
+
+    }
+
+    footer{
+        background-color:#333;
+        color:white;
+        padding:20px;
+        text-align:center;
+    }
+
+    @media screen and (max-width: 768px){
+        .destinations-list{
+            flex-direction: column;
+            align-items: center;
+
+        }
+        .destination{
+            width:80%;
+        }  
+    }
+    .learn-more-button {
+        display: inline-block;
+        padding:15px 30px;
+        margin-top: 30px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: bold;
+        transition: background-color 0.3s;
+    }
+    .learn-more-button:hover {
+        background-color:#0056b3;
+    }
